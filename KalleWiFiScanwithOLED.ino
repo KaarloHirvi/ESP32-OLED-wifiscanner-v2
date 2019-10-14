@@ -5,7 +5,9 @@
 */
 #include "ESP8266WiFi.h"
 #include <Arduino.h>
+/* Added to support OLED */
 #include <U8g2lib.h>
+/* Added to support basic string ops */
 #include <string.h>
 
 #ifdef U8X8_HAVE_HW_SPI
